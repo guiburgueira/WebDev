@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form de Login</h1>
+    <p>
+        <form action="" method="POST">
+            <input type="text" placeholder="User" name="user">
+            <input type="password" placeholder="Senha" name="pw">
+            <button>LOGAR</button>
+        </form>
+    </p>
+    <h1>Teste de inputs</h1>
+    <!--tag form é bloco, não precisa de paragraph-->
+    <form action="" method="GET">
+        <input type="text">
+        <input type="color">
+        <input type="radio">
+        <input type="password">
+    </form>
+
+    <h1>Changing URL on submit (Query String)</h1>
+    <form action="">
+        <input type="text" placeholder="User" name="user">
+        <input type="password" placeholder="Senha" name="pw">
+        <button>LOGAR</button>
+    </form>
+    <h1>Label Desencadeado</h1>
+    <label for="username">USERNAME DO COTOCO:</label>
+    <input type="text" id="username" placeholder="teunome">
+    <input type="submit">
+    <!--Fazendo dessa forma deve se usar for e id-->
+
+    <h1>Validação de formulários</h1>
+    <form action="">
+        <label for="usuario1">Newba:</label>
+        <input type="text" id="usuario1" required placeholder="Insira o user aqui"> 
+        <label for="senha1">SENHA DO NOOB:</label>
+        <input type="password" id="senha1" required placeholder="Insira a senha aqui">
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" id="email" required placeholder="Insira a senha aqui"> <!--Faz regex pelo Browser no formato de email-->
+        <input type="submit"> <!--Input Type deve ser submit-->
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+h1 {
+    color: rgb(255,0,0);
+    border-width: 5px;
+    border-color: #00FF00;
+    border-style: groove;
+
+}
+
+h2 {
+    color: #00FF00;
+    border: 5px dotted #0F00ff; 
+}
+
+/*Com alpha channel na cor:*/
+h3 {
+    color: #0000ff33;
+}
+
+h4 {
+    background: #00eeff;
+}
+
+body {
+    background: rgba(178, 34, 34, 0.226)
+}

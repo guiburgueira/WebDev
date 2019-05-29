@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex FORM</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+       <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Smith" required>
+       </div>
+        
+        <div>
+            <label for="male">Macho</label>
+            <input type="radio" name="Sexo" id="male" value="male">
+            <label for="femea">Femea</label>
+            <input type="radio" name="Sexo" id="femea" value="femea">
+            <label for="mutante">Mutante</label>
+            <input type="radio" name="Sexo" id="mutante" value="mutante">
+        </div>
+       <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password:</label>
+            <!-- Essa forma não permite que o usuer digite mais de 10 chars mas não avisa This method has less browser support than the pattern attribute.
+ <input type="password" name="pw" id="password" required minlength="5" maxlength="10"> -->
+            <input type="password" name="pw" id="password" required pattern=".{5,10}" title="Digite uma senha de 5 à 10 caracteres.">
+       </div>
+        <div>
+            <fieldset>
+                <legend>Birthday:
+                    <select name="month" id="month">
+                        <option value="">Month</option>
+                        <option value="jul">Julho</option>
+                        <option value="abr">Abril</option>
+                    </select>
+                    <select name="day" id="day">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="">Year</option>
+                        <option value="94">94</option>
+                        <option value="99">99</option>
+                    </select>
+                </legend>
+            </fieldse>
+        </div>
+        <div>
+            <label for="tos">I agree to the terms of service</label>
+            <input type="checkbox" name="tos" id="tos" value="yes">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

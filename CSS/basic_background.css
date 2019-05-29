@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(255,0,0);
+}
+
+h2 {
+    color: #00FF00
+}
+
+/*Com alpha channel na cor:*/
+h3 {
+    color: #0000ff33;
+}
+
+h4 {
+    background: #00eeff
+}
+
+body {
+    background: url(https://images.homedepot-static.com/productImages/48600d56-c381-46d3-8b42-bf2150afc4f7/svn/astrolawn-artificial-grass-5010899-64_1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

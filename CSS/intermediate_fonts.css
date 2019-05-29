@@ -1,0 +1,21 @@
+p:nth-of-type(1) {
+    font-family: "Arial";
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: Georgia;
+    text-decoration: line-through;
+    text-align: end;
+}
+
+span{
+    font-size: 2em; /*Unidade de medida 'em' leva em conta o tamanho herdado, assim facilita para aumento proporcional e automático*/
+}
+
+#GFonts {
+    font-family: 'Open Sans', sans-serif;
+}
