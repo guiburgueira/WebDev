@@ -1,0 +1,38 @@
+body{
+    margin: auto;
+    /*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);*/
+
+}
+
+td{
+    margin: 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.l{
+    border-right: 1px solid black;
+}
+
+.r{
+    border-left: 1px solid black;
+}
+
+.ml{
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: black;
+}
+.mr{
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+}
+.c{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: black;
+}
